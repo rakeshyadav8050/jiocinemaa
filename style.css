@@ -1,0 +1,856 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+}
+#navleft{
+    display: flex;
+    gap: 10px;
+}
+#navleft .c:hover{
+    color: rgb(0, 255, 0);
+}
+#navleft .a{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    
+}
+#navleft .b{
+margin-top: 9px;
+height: 25px;
+width: 90px;
+border-radius: 20px;
+border-color: gold;
+background-color: transparent;
+color: gold;
+font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+}
+#navleft .c{
+    margin-top: 9px;
+    height: 25px;
+    width: 90px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    }
+    #navleft .d{
+        margin-top: 0px;
+        height: 45px;
+        width: 90px;
+        border-radius: 20px;
+        border-color: transparent;
+        background-color: transparent;
+        color: white;
+        border-color:white;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+    
+}
+#navright{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+#searchdiv{
+    display: flex;
+    height: 20px;
+    border-color: green;
+    display: flex;
+
+}
+#searchdiv {
+    height: 40px;
+    background-color:transparent;
+    color: #918a8a;
+    width: 200px;
+    border: 2px solid rgb(151, 145, 145);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+#searchdiv .button{
+    width: 150px;
+    background-color: transparent;
+    border-color: transparent;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(240, 234, 234);
+    cursor: pointer;
+}
+#searchdiv h2{
+    color: white;
+    font-weight: 100;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+
+#navright img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    
+}
+#home{
+    height: 570px;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+
+    
+}
+#homeleft{
+    height: 570px;
+    width: 42%;
+    background-color: rgb(9, 9, 9);
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+#texts{
+    margin-top: 200px;
+}
+#texts h2{
+    color: white;
+}
+#texts button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(227, 15, 157);
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+#texts button:hover{
+    background-color: blue;
+    color:white;
+}
+#texts .n{
+    background-color: rgb(213, 45, 45);
+    height: 30px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+#homeright{
+    height: 570px;
+    width: 58%;
+    background-image: url(bbk-16x9\(1\)-1696841844955.jpg);
+    box-shadow: inset 2px 1px 13px 21px rgba(5,1,5,1);
+    background-size: 890px ;
+    background-position: bottom;
+    
+}
+#h{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#carddive{
+    height: 285px;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#firstone{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/mumbai_vs_kerla_highlights_horizontal_vertical-1696779820039.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#firsttwo{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/granada_vs_barcelona_horizontal_vertical-1696746742639.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#firstthree{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/stade_rennais_v_psg-vertical-1696619039837.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#firstfour{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ligue-1_highlights_vertical-1696767121912.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#firstfive{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/isl_highlights_vertical-1696693061858.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#firstsix{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/la_liga_highlights_vertical-1696692164012.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#secondone{
+    height: 280px;
+    width: 15% ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/kofuku_golden-border-3x4-1696777847830.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#secondtwo{
+    height: 280px;
+    width: 15% ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ghuspaith-3x4-1696522009496.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#secondthree{
+    height: 280px;
+    width: 15% ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/bebaak-with-border-3x4-1696433058715.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#secondfour{
+    height: 280px;
+    width: 15% ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/comedian-3x4-1695979554806.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#secondfive{
+    height: 280px;
+    width: 15% ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/birha-the-journey-back-home-3x4-1695989820069.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#secondsix{
+    height: 280px;
+    width: 15% ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/b-gg-3x4-1696327200702.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#thirdone{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/laar_3x4-1696782265663.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#thirdtwo{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/roadies-3x4-1693565966596.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#thirdthree{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3x4-1692266554763.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#thirdfour{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3x4ss-1695985840383.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#thirdfive{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/udaariyaan_3x4-1695306404190.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#thirdsix{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/parineetii_3x4-1695306470980.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fourone{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/bhediya-3x41-1689156291806.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fourtwo{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/vv_02_3x4-1689152074768.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#fourthree{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/bloody_daddy_3x4-1689152042847.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#fourfour{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/mumbaikar-clean-3x4-1687779652093.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#fourfive{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/rocketry-3x4-1687775926510.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}#foursix{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/dashing-cm-1683867674499.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fiveone{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/asur2_3x4-1692798747887.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fivetwo{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/inspecto_avinash_3x4-1692799243907.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fivethree{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_3x4-1692799134037.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fivefour{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/crackdown_3x4-1692798941169.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fivefive{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/apharan-3x4-1694794049661.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#fivesix{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/rafuchakkar-3x4-3-1693639276407.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#carddivsix{
+    height: 185px ;
+    width: 100%;
+     background-color:black; 
+    display: flex;
+    justify-content: space-around;
+padding-left: 20px;
+padding-right: 20px;
+}
+#sixone{
+    height: 160px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    background-image: url(https://v3img.voot.com/resizeMedium,w_960,h_540/v3Storage/assets/peacock-logo16x9-1686372123165.jpg?imformat=chrome);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#sixone button{
+    color: black;
+    background-color: rgb(139, 131, 67);
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+#sixtwo{
+    height: 160px;
+    width: 300px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_960,h_540/v3Storage/assets/hbo_logo-1683992602976.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 830px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#sixtwo button{
+    color: black;
+    background-color: rgb(139, 131, 67);
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+#sevenone{
+    height: 180px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 25px;
+    cursor: pointer;
+}
+#sevenone p{
+    font-weight: 600;
+    font-size: 19px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#maintop{
+    height: 30px;
+    width: 100%;
+     /* background-color: blue;  */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+#topsevleft{
+    height: 30px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    font-family: apple;
+}
+#topsevleft img{
+    height: 30px;
+    width: 40px;
+    margin-right: 8px;
+}
+#mainbottom{
+    height: 30px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+#sevenbottomleft{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#sevenbottomleft img{
+    height: 30px;
+    width: 40px;
+    margin-right: 8px;
+}
+#sevendown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+#sevendown button{
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+#sevendown h2{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* eightth card */
+#eightone{
+    height: 280px;
+    width: 15%;
+   background-image:url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical-1695826555421.jpg?imformat=chrome) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#eighttwo{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_rohit-1695826634549.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#eightthree{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_best_spells_vertical-1695817383736.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#eightfour{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_surya-1695561592602.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#eightfive{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_top_knocks_vertical_gill-1695555437344.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#eightsix{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ind_vs_aus_best_spells_vertical_ash-1695577604733.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#nineone{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3x4_tindere-1694752525870.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ninetwo{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/comedy-nights-with-kapil-ivy-3x4-1674294535670.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ninethree{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/feet-up-with-stars-hindi-3x4-1677578117894.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ninefour{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/theanupamkershow3x4-1645677747786.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ninefive{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/feet-up-with-stars-3x4-1677578247235.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ninesix{
+    height: 280px;
+    width: 15%;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/ap_wthi_s6_voot_768x1024-1668776130916.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#cardi{
+    height: 280px;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#tenone{
+    height: 170px;
+    width: 310px;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_960,h_540/v3Storage/assets/cif-16x9-1669191039767.jpg?imformat=chrome);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#tentwo{
+    height:170px ;
+    width:310px ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_960,h_540/jioimage/33/51/1684937584446_1685102383033_l.jpg?imformat=chrome);
+    background-size: cover ;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#tenthree{
+    height:170px ;
+    width:310px ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_960,h_540/v3Storage/assets/chhe-ivy-16x9-carousel-1676960147781.jpg?imformat=chrome);
+    background-size: cover ;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#tenfour{
+    height:170px ;
+    width:310px ;
+    background-image: url(https://v3img.voot.com/resizeMedium,w_960,h_540/jioimage/37/27/1601905214959_1601905758434_l.jpg?imformat=chrome);
+    background-size: cover ;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#footer{
+    height: 270px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.937); 
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+#footerleft{
+    color: white;
+    display: flex;
+}
+#leftone{
+    width: 200px;
+    /* background-color: red; */
+    margin-left: 20px;
+    
+}
+
+#leftone h2{
+    margin-bottom: 15px;
+
+}
+ #leftone a{
+    line-height: 27px;
+    margin-top: 60px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+#leftone a:hover{
+    color: blue;
+}
+#footerright{
+    display: flex;
+}
+#rightone{
+    width: 280px;
+   
+}
+#rightone h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#rightone button{
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: rgb(9, 9, 9);
+    cursor: pointer;
+}
+#righton {
+    color: white;
+    width: 350px;
+    
+}
+#righton h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#imgs{
+    display: flex;
+    height: 40px;
+    width: 110px;
+    margin-right: 140px;
+    justify-content: space-between;
+    gap: 13px;
+}
+#last{
+    height: 100px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.847);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+#last img{
+    height: 70px;
+    width: 70px;
+    margin-left: 830px;
+    
+}
+
+
+
+

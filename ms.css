@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav{padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navleft{
+    display: flex;
+}
+#nav img{
+    height: 20px;
+    width: 100px;
+
+}
+#nav a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav a:hover{
+    
+    text-decoration:2px black underline;
+}
+#navright{
+    display: flex;
+}
+#home{
+    height: 67%;
+    width: 100%;
+    background-size:cover ;
+    background-position:  center;
+    /* background-color: rgb(204, 171, 236); */
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Laptop-Go-2-for-Business-RE4Yfwv?scl=1);
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+
+}
+#leftitem{
+    height: 250px;
+    width: 500px;
+    
+}
+#leftitem button.one{
+    background-color:rgb(0, 8, 255);
+    width: 50px;
+    height: 30px;
+   margin-top: 10px; 
+    margin-left: 10px;
+    color:white;
+    align-items: center;
+}
+#leftitem h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+#leftitem p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#leftitem button{
+    height: 40px;
+    width: 100px;
+background-color: rgb(40, 40, 204);
+color: white;
+border-radius: 3px;
+border-color: transparent;
+}
+#leftitem button:hover{
+    background-color: black;
+}
+#two{
+    height: 250px;
+    width: 100%;
+    
+    display: flex;
+    gap: 10px;
+    padding-left: 330px;
+    padding-right: 330px;
+    justify-content: space-between;
+    
+
+}
+#two  #ms{
+    height: 200px;
+    width: 220px;
+    margin-top: 40px;
+    padding-top: 0px;
+    align-items: center;
+    
+    
+    
+}
+#ms h1{
+    margin-left: 65px;
+    font-size: 60px;
+    margin-top: 20px;
+}
+#ms a{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-weight: 600;
+}
+#three{
+    width: 100%;
+    height: 220px;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* background-color: rgb(0, 187, 255); */
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 10px;
+
+}
+#three #posterone{
+    height: 200px;
+    width: 330px;
+     background-image: url(Content-Card-Surface-Pro-9-M1-Platinum-02-1.webp);
+    background-size: cover;
+}
+#three #postertwo{
+    height: 200px;
+    width: 330px;
+    background-image: url(Content-Card-Microsoft-365-Lifestyle-Sandstone-Icon-Toss.webp) ;
+    background-size: cover;
+}
+#three #posterthree{
+    height: 200px;
+    width: 330px;
+    background-size: cover;
+    background-image: url(gldn-XSX-CP-Xbox-Series-X.webp);
+}
+#three #posterfour{
+    height: 200px;
+    width: 330px;
+    background-size: cover;
+    background-image: url(gldn-XSS-CP-Xbox-Series-S-Evergreen.jpeg);
+}
+#four{
+    
+    height: 300px;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#postext{
+    height: 210px;
+    width: 330px;
+    /* background-color: aquamarine; */
+
+}
+#postext h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+#postext p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#postext a{
+    font-weight: 600;
+}
+#five{
+    height: 70%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-AI-Open-Preview:VP5-1596x600);
+    background-size: cover;
+    background-position: left;
+    padding-left: 130px;
+    padding-right: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#fiveone h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+#fiveone p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+#fiveone button{
+    height: 40px;
+    width: 150px;
+    border-radius: 3px;
+    background-color: rgb(15, 15, 223);
+    color: white;
+    border-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#fiveone button:hover{
+    background-color: black;
+    color: white;
+}
+#sixtext{
+    height: 40px;
+    width: 100%;
+    /* background-color: grey; */
+    margin-top: 20px;
+    padding-left: 70px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 30px;
+
+
+}
+#seven{
+    height: 220px;
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    /* background-color: hotpink; */
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+#sevencardone{
+    height: 200px;
+    width: 330px;
+    background-image: url(gldn-Surf-CP-SurfaceFamilyForBusiness.webp);
+    background-size: cover;
+}
+
+#sevencardtwo{
+    height: 200px;
+    width: 330px;
+    background-image: url(gldn-CP-Microsoft-Teams-Commercial.webp);
+    background-size: cover;
+}
+
+#sevencardthree{
+    height: 200px;
+    width: 330px;
+    background-image: url(sevencardthree.webp);
+    background-size: cover;
+}
+
+#sevencardfour{
+    height: 200px;
+    width: 330px;
+    background-image: url(Content-Card-Azure-AI-Bloom.jpeg);
+}
+#eight{
+    height: 300px;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
+#eightcardtext{
+ height: 210px;
+ width: 330px;
+  /* background-color: rgb(211, 144, 144); */
+}
+#eightcardtext h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#eightcardtext p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#eightcardtext a{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#eightcardtext a:hover{
+    text-decoration: underline;
+}
+#nine{
+    height: 70%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-size: cover;
+     background-image: url(Highlight-Microsoft-Responsible-AI_VP2-859x540.webp); 
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+#overpage{
+    height: 330px;
+    width: 470px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+#overcen h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+#overcen p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#overcen button{
+    height: 40px;
+    width: 270px;
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+    border-radius: 3px;
+}
+#overcen button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+#teni{
+    height: 200px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    cursor: pointer;
+}
+#tenone{
+    height: 100%;
+    width: 50%;
+    /* background-color: hotpink; */
+    display: flex;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+#tenone h5{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#tenone p{
+    font-size: 22px;
+    margin-left: 5px;
+}
+#tenwo{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(105, 193, 255); */
+}
+#tenwo button{
+height: 40px;
+width: 120px;
+background-color: blue;
+color: white;
+border-radius: 3px;
+border-color: transparent;
+margin-left: 610px;
+margin-top: 80px;
+cursor: pointer;
+}
+#tenwo button:hover{
+    background-color: black;
+}
+#eleven{
+    height: 420px;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* background-color: rgb(218, 203, 203); */
+    display: flex;
+    justify-content: space-between;
+    line-height: 32px;
+    
+}
+#elecard{
+    height: 380px;
+    width: 16%;
+    /* background-color: hotpink; */
+    
+    
+    
+    
+    
+}
+#elecard h5{
+    font-size: 17px;
+    color:black;
+}
+#elecard a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    
+}
+#elecard a:hover{
+    text-decoration: underline;
+    color: blue;
+}

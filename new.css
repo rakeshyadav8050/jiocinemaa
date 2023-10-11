@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    
+}
+#navleft button{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+
+}
+#navright a{
+ color: black;
+ font-size: 19px;
+ font-stretch: 50%;
+ cursor: pointer;
+ letter-spacing: 3px;
+ line-height: 35px;
+}
+#first{
+    height: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#overlay{
+    height:  100%;
+    width: 100%;
+    background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2017/03/vim-and-vigour-hero-2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: -1;
+
+}
+
+#second{
+    height: 150vh;
+    width: 100%;
+    background-color: grey;
+    
+}
+#secondone{
+    height: 35vh;
+    width: 100%;
+    background-color: #313033;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    color: white;
+    display: flex;  
+    padding-left: 20%;
+     padding-right: 20%; 
+     padding-top: 20px; 
+}
+
+#secondone h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-left: 340px;
+    margin-bottom: 20px;
+    
+    
+}
+#secondone h5{
+    margin-left: 305px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-stretch: 10px;
+
+}
+#secondone p{
+    font-size: 18px;
+
+}
+
+#seconddown{
+    width: 100%;
+    height: 120vh;
+     background-color: #313033; 
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 100px; */
+    padding-left: 150px;
+    padding-right: 120px;
+}
+
+#downimg{
+    height: 96vh;
+    width: 100%;
+    background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2017/03/vim-and-vigour-group-shot-1.jpg) ;
+}
+#third{
+    height: 140vh;
+    width: 100%;
+    background-color:#F3F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#thirdimg{
+    height: 100vh;
+    width: 90%;
+    background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2017/03/vim-and-vigour-branding-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#four{
+    height: 300vh;
+    width: 100%;
+    background-color: #313033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fourimg{
+    height: 240vh;
+    width: 57%;
+    background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2017/03/vim-and-vigour-website-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#five{
+    height: 140vh;
+    width: 100%;
+    background-color: #F3F3F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fiveimg{
+    height: 70vh;
+    width: 60%;
+    background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2017/03/vim-and-vigour-mobile-website-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#six{
+    height: 50%;
+    width: 100%;
+    /* background-color:black; */
+    display: flex;
+}
+#sixone{
+    height: 100%;
+    width: 50%;
+    background-image: url(cta-bg-hover-1.png);
+    background-size: cover;
+    background-position: center;
+}
+#sixtwo{
+    height: 100%;
+    width: 35%;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+#sixthree{
+    height: 100%;
+    width: 15%;
+    
+}
+#overone{
+    height: 100%;
+    width: 100%;
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#overone:hover{
+    background-color: rgba(0, 0, 0, 0.56);
+    transition: 0.7s;
+
+}
+#ovte h2{
+    font-size: 26px;
+    font-size: 600;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#ovte p{
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 100;
+    font-stretch: 26px;
+}
+#ovright{
+    margin-left: 30px;
+}
+
+#ovright h2{
+    font-size: 26px;
+    font-size: 600;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#ovright p{
+    margin-right: 26px;
+    font-size: 15px;
+    font-weight: 100;
+    font-stretch: 36px;
+}
+#seven{
+    height: 50%;
+    width: 100%;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+#seven img{
+    height: 220px;
+    width: 220px;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#seven h5{
+    font-weight: 100;
+    font-size: 17px;
+    font-stretch: 55px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#eight{
+    height: 52%;
+    width: 100%;
+    background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2018/02/Matchbox-Voice-Image.jpg);
+    background-size: cover;
+    background-position: center top;
+
+}
+#eightovly{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.648);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-stretch: 50%;
+}
+#eight h6{
+    font-size: 12px;
+    font-stretch: 50px;
+    margin-top: 163px;
+    margin-left: 32px;
+    letter-spacing: 5px;
+    
+}
+#eight p{
+    font-size: 29px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
